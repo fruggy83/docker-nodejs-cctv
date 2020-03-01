@@ -1,0 +1,3 @@
+CCTV_INPUTURL=rtsp://admin:123456@camsource:554/h264Preview_01_main
+CCTV_OUTPUTURL=http://posturl
+CCTV_CAMFPS=8

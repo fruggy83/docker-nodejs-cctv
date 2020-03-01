@@ -1,0 +1,1 @@
+docker run -p 1234:3000 --name cctv --mount src="\app\client",dst=/usr/src/app/client,type=bind --env-file ./envs.list cctv

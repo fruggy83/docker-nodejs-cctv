@@ -1,0 +1,13 @@
+{
+  "name": "cctv",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "socket.io": "1.2.1",
+    "body-parser": "1.18.3",
+    "request": "2.88.0"
+  }
+}

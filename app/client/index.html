@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1"/>
+  <title>cctv</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <div class="container center">
+    <canvas id="canvas-video" width="640" height="480"></canvas>
+    <button id="liveView">Live view</button>
+    <label>Private mask</label>
+    <button id="editPM">Edit</button>
+    <button id="clearPM">Clear</button>
+    <button id="savePM">Save</button>
+    <label>Bounding poly</label>
+    <button id="editBP">Edit</button>
+    <button id="clearBP">Clear</button>
+    <button id="saveBP">Save</button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
